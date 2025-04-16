@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto LandingPage</title>
+    <link rel="stylesheet" href="style.css" />
+
+  </head>
+  <body>
+    <header>
+      <nav class="cabecalho">
+        <section class="cabecalho__esquerda">
+          <img src="./assets/images/logo.svg" alt="logo"
+            class="cabecalho__imagem" />
+          <p class="cabecalho__titulo">OptimusTech</p>
+        </section>
+
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+        <section class="cabecalho__paginas" id="menuMobile">
+          <a href="#" class="cabecalho__link">Home</a>
+          <a href="#" class="cabecalho__link">Produtos</a>
+          <a href="#" class="cabecalho__link">Recursos</a>
+          <a href="#" class="cabecalho__link">Sobre nós</a>
+          <div class="cabecalho__botoes-mobile">
+            <button class="cabecalho__link">Entrar</button>
+            <button class="cabecalho__link cabecalho__botao">Cadastrar</button>
+          </div>
+        </section>
+      </nav>
+    </header>
+
+    <main class="fade-in">
+      <section class="secao__superior">
+        <span class="secao__span">Sobre Nós</span>
+        <div class="secao__textos">
+          <h1 class="secao__titulo">Por que somos diferentes?</h1>
+          <p class="secao__paragrafo">
+            Nós focamos nos detalhes de tudo que fazemos. Tudo para ajudar as
+            empresas de todo o mundo a se concentrarem naquilo que é realmente
+            importante para elas.
+          </p>
+        </div>
+      </section>
+      <section class="metricas-container">
+        <div class="primeira__metrica">
+          <h1 class="titulo-metrica">400+</h1>
+          <h3 class="subtitulo-metrica">Projetos concluídos</h3>
+          <p class="paragrafo-metrica">
+            Nós ajudamos a construir mais de 400 projetos incríveis.
+          </p>
+        </div>
+        <div class="segunda__metrica">
+          <h1 class="titulo-metrica">100+</h1>
+          <h3 class="subtitulo-metrica">Colaboradores</h3>
+          <p class="paragrafo-metrica">
+            Temos mais de 100 colaboradores no nosso time que se preocupam com
+            nossos clientes.
+          </p>
+        </div>
+        <div class="terceira__metrica">
+          <h1 class="titulo-metrica">20k</h1>
+          <h3 class="subtitulo-metrica">Downloads</h3>
+          <p class="paragrafo-metrica">
+            Nossos projetos que estão disponíveis em lojas já foram baixados
+            mais de 20.000 vezes.
+          </p>
+        </div>
+        <div class="quarta__metrica">
+          <h1 class="titulo-metrica">500+</h1>
+          <h3 class="subtitulo-metrica">Reviews 5 estrelas</h3>
+          <p class="paragrafo-metrica">
+            Estamos orgulhosos de contar com mais de 500 reviews 5 estrelas em
+            nossos produtos.
+          </p>
+        </div>
+      </section>
+      <section class="section__img">
+        <div class="informativo__section">
+          <span class="span__segunda-section">Vagas abertas!</span>
+          <h2 class="titulo__segunda-section">
+            Estamos procurando por talentos
+          </h2>
+          <p class="paragrafo__segunda-section">
+            Somos uma equipe 100% remota com pessoas do Brasil inteiro.
+          </p>
+        </div>
+        <div class="divisao__section-img">
+          <img src="./assets/images/Image.png" class="imagem__section" />
+        </div>
+      </section>
+      <section class="section__vagas">
+        <h3 class="titulo__vagas">Design</h3>
+        <div class="vagas vaga__um">
+          <span class="nome-vaga">Product Designer</span>
+          <div class="informacoes">
+            <span class="tempo-trabalho">Full-time</span>
+            <span>Faixa salarial: R$7.000</span>
+          </div>
+        </div>
+        <div class="vagas vaga__dois">
+          <span class="titulo-vaga">UX Designer</span>
+          <div class="informacoes">
+            <span class="tempo-trabalho">Full-time</span>
+            <span>Faixa salarial: R$6.000</span>
+          </div>
+        </div>
+      </section>
+      <section class="section__vagas">
+        <h3 class="titulo__vagas">Desenvolvimento de Software</h3>
+        <div class="vagas vaga__um">
+          <span class="nome-vaga">Desenvolvedor(a) iOS</span>
+          <div class="informacoes">
+            <span class="tempo-trabalho">Full-time</span>
+            <span>Faixa salarial: R$8.000</span>
+          </div>
+        </div>
+        <div class="vagas vaga__dois">
+          <span class="titulo-vaga">Desenvolvedor(a) Front-end</span>
+          <div class="informacoes">
+            <span class="tempo-trabalho">Full-time</span>
+            <span>Faixa salarial: R$7.000</span>
+          </div>
+        </div>
+        <div class="vagas vaga__back">
+          <span class="titulo-vaga">Desenvolvedor(a) Back-end</span>
+          <div class="informacoes">
+            <span class="tempo-trabalho">Full-time</span>
+            <span class="salario__vagas">Faixa salarial: R$8.000</span>
+          </div>
+        </section>
+        <section class="depoimentos">
+          <div class="depoimentos__fundo">
+            <img src="./assets/images/Image.png" alt="Imagem da equipe"
+              class="depoimentos__imagem-fundo">
+          </div>
+
+          <article class="depoimentos">
+            <div class="depoimentos__fundo">
+              <img src="./assets/images/Image.png" alt="Imagem da equipe"
+                class="depoimentos__imagem-fundo">
+            </div>
+
+            <span class="minitext__depoimentos">Veja o que nossos colaboradores
+              falam sobre nós</span>
+            <h2 class="titulo__depoimentos">
+              “OptimusTech se importa com a saúde dos seus colaboradores e
+              sempre procura nos dar todo tipo de auxílio possível.”
+            </h2>
+            <div class="secao__imagem">
+              <img src="./assets/images/Avatar.png" alt="imagem da julia"
+                class="imagem__depoimentos" />
+              <p class="nome__depoimentos">Júlia Castro</p>
+              <p class="cargo__depoimentos">Desenvolvedora Web</p>
+            </div>
+          </article>
+        </section>
+
+      </main>
+      <footer class="rodape">
+        <h2 class="rodape__titulo">Acompanhe as nossas oportunidades</h2>
+        <p class="rodape__paragrafo">Seja o primeiro a saber quando novas vagas
+          serão abertas!</p>
+        <div class="secao__email">
+          <input type="email" placeholder="Seu e-mail" required
+            class="rodape__email" />
+          <button onclick="validarEmail()"
+            class="rodape__botao">Cadastrar</button>
+        </div>
+        <p class="rodape__texto">© 2022 OptimusTech. Todos os direitos
+          reservados.
+          by Wildman Sousa
+        </p>
+      </footer>
+      <script>
+        function clicou(){
+         
+         alert ("Seja Bem vindo!");
+          
+        }
+
+        
+        function toggleMenu() {
+          const menu = document.getElementById('menuMobile');
+          menu.classList.toggle('show');
+        }
+
+        function validarEmail() {
+    const emailInput = document.querySelector('.rodape__email');
+    if (emailInput.value.trim() === "") {
+        alert("Por favor, digite seu e-mail.");
+        return false; 
+    }
+    alert("Bem vindo");
+    
+}
+
+      </script>
+    </body>
+  </html>
